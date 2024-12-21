@@ -2,6 +2,10 @@ import type React from 'react';
 import { useEffect, useState } from 'react';
 import FilmsAlreadySeen from '../components/FilmsAlreadySeen';
 import type Film from '../utils/interfaces/Film.interface';
+import '../utils/log_holiday'
+import '../utils/log_cat';
+import '../utils/log_cube';
+import '../utils/log_horse';
 
 const SeenIt = () => {
   const [alreadyWatchedFilms, setAlreadyWatchedFilms] = useState<Film[]>([]);
